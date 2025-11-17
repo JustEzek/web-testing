@@ -1,7 +1,5 @@
 # GrabDocs E2E (Cypress + Playwright)
 
-# GrabDocs E2E Testing (Playwright)
-
 This repository contains an end-to-end (E2E) test suite for GrabDocs built using **Playwright**, following Software Engineering best practices.  
 It includes Page Object patterns, feature-based test organization, environment variables, and CI integration.
 
@@ -82,6 +80,5 @@ A full Azure DevOps project was created with:
 - Tasks: Write tests, configure selectors, set up CI
 - Traceability links from tests to user stories
 
-This satisfies the assignment requirement to migrate the requirement document into Azure DevOps.
 
 

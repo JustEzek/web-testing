@@ -65,13 +65,8 @@ cd grabdocs-e2e
 
 ## CI/Reporting
 - Add to GitHub Actions or GitLab CI by caching `~/.cache/ms-playwright` and `node_modules`.
-- Artifacts: Cypress videos/screenshots under `cypress/`, Playwright HTML report via `npm run pw:report`.
+- Artifacts: Playwright HTML report via `npm run pw:report`.
 
-## Demo Script (10–12 min)
-1. Explain selector strategy + env vars.
-2. Run `cy:open`, execute `auth.cy` and `document-crud.cy` interactively.
-3. Show Playwright parallel run + trace viewer on a failing spec.
-4. Conclude with coverage list and flake mitigations (auto‑waits, test isolation, retry).
 
 ## Azure DevOps
 

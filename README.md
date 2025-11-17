@@ -1,10 +1,13 @@
-# GrabDocs E2E (Cypress + Playwright)
+# GrabDocs E2E (Playwright)
 
 This repository contains an end-to-end (E2E) test suite for GrabDocs built using **Playwright**, following Software Engineering best practices.  
 It includes Page Object patterns, feature-based test organization, environment variables, and CI integration.
 
 Because GrabDocs login was not functioning as of **Monday, November 17**, fully authenticated flows could not be executed.  
 However, the entire test architecture and feature coverage are implemented and ready to enable as soon as authentication is available.
+
+Note: Although the starter template includes both Cypress and Playwright, this project only implements Playwright, as assigned.
+
 
 ---
 

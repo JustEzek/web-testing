@@ -6,11 +6,13 @@ dotenv.config();
 export default defineConfig({
   testDir: 'tests',
   use: {
-    baseURL: process.env.BASE_URL || 'https://grabdocs.com',
+    baseURL: process.env.BASE_URL || 'https://app.grabdocs.com',
+    storageState: 'auth/owner.json',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
   },
+  workers: 1,
   retries: 1,
   projects: [
     { name: 'Chromium', use: { ...devices['Desktop Chrome'] } },

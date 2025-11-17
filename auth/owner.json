@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "session",
+      "value": "eyJ0ZW1wX3VzZXJuYW1lIjoiV2ViVGVzdGluZ09ubGluZSJ9.aRsHDA.7oX-hz94VrIaWfMdRcjPUv26hdg",
+      "domain": ".grabdocs.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.grabdocs.com",
+      "localStorage": [
+        {
+          "name": "activeUploads",
+          "value": "[]"
+        }
+      ]
+    }
+  ]
+}
